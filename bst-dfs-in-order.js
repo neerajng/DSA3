@@ -57,4 +57,5 @@ tree.insert(3)
 tree.insert(8)
 tree.insert(20)
 
-tree.dfsInOrder()
+var sec=tree.dfsInOrder()
+console.log(sec[sec.length-2])
