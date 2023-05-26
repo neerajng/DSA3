@@ -1,4 +1,4 @@
-class MaxBinaryTree{
+class MaxBinaryHeap{
     constructor(){
         this.values=[41,39,33,18,27,12]
     }
@@ -22,6 +22,6 @@ class MaxBinaryTree{
     }
 }
 
-let heap = new MaxBinaryTree()
+let heap = new MaxBinaryHeap()
 
 heap.insert(11)
