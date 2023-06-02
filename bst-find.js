@@ -44,7 +44,7 @@ class BST{
     find(value){
         if(this.root===null) return undefined
         let current=this.root, found=false
-        while(current && !found){
+        while(current && !found){  
             if(value<current.value){
                 current=current.left
             }else if(value>current.value){
